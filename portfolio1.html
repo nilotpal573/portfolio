@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="./logo.png" height="150px" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTOFOLIO</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">HIRE ME</a></li>
+            </ul>
+            <img src="dark.png" alt="" class="icon">
+        </nav>
+        <div class="detail">
+            <h1>I'm Nilotpal<span> Das</span></h1>
+            <p>This is my Official Portfolio to shows all my work and experiences in Web Development. 
+                <br>I'm a Web Developer and Frontend Developer 
+            </p>
+            <a href="#">DOWNLOAD CV</a>
+            
+        </div>
+        <div class="images">
+            <img src="./profile.jpeg" class="profile">
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about-pic">
+            <img src="./istockphoto-956234478-1024x1024.jpg"  alt="" class="about-pics">
+         </div>
+        <div class="about-right">
+            <h1>ABOUT <span> ME</span></h1>
+             <br>
+            <h3>Web Developer</h3>
+            <div class="line"></div>
+            <p>Hi,My name is Nilotpal Das and currently I'm Persuing MCA in Chandigarh University.
+            I am a skilled Web Designer with over 2 years of experiences in the industry.
+            My passion lies in creating captivating website designs and implementing them through frontend development.</p>
+        </div>
+        
+    </div>
+
+<div class="portfolio">
+    <h1>PORT<span>FOLIO</span></h1>
+
+    <div class="project">
+        
+        <img src="./e-commerce-online-shopping-plant-sale.jpg" alt="Project 1">
+        <div class="project-details">
+            <h2>Project 1: E-commerce Website</h2>
+            <p>An online store built with HTML, CSS, and JavaScript.</p>
+            <ul>
+                <li>Implemented responsive design for various devices.</li>
+                <li>Integrated payment gateway for seamless transactions.</li>
+                <li>Technologies: HTML, CSS, JavaScript, Payment API</li>
+            </ul>
+            <a href="#">View Project</a>
+            <a href="#"><span>GitHub Repository</span></a>
+        </div>
+    </div>
+
+    <div class="project right">
+        <img src="./blog.jpg" alt="Project 2">
+        <div class="project-details">
+            <h2>Project 2: Personal Blog</h2>
+            <p>A blog platform developed using React and Node.js.</p>
+            <ul>
+                <li>Implemented user authentication and authorization.</li>
+                <li>Used MongoDB for database storage.</li>
+                <li>Technologies: React, Node.js, MongoDB</li>
+            </ul>
+            <a href="#">View Project</a>
+            <a href="#"><span>GitHub Repository</span></a>
+        </div>
+    </div>
+
+
+</div>
+
+    <div class="services">
+        <h1>SKI<span>LLS</h1>
+    <div class="middle">
+        <div>
+            <img src="./Screenshot 2024-01-25 011317.png" alt="" width="550px" >
+        </div>
+
+        <div>
+        <div class="service">
+            <div class="service-details">
+                <h2>UI/UX Design</h2>
+                <p>Create visually appealing and user-friendly website designs tailored to your brand or project.</p>
+            </div>
+        </div>
+    
+        <div class="service">
+            <div class="service-details">
+                <h2>Frontend Development</h2>
+                <p>Implement responsive and interactive frontend solutions using HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    
+        <div class="service">
+            <div class="service-details">
+                <h2>Web Development</h2>
+                <p>Build robust and scalable web applications with a focus on performance and user experience.</p>
+            </div>
+        </div>
+        </div>
+        </div>
+    
+    
+    </div>
+<div class="contact">
+    <h1>CONT<span>ACT</h1>
+
+    <div class="contact-details">
+        <p>If you have any inquiries or would like to discuss a project, feel free to reach out to me. I'm always open to new opportunities!</p>
+        <ul>
+            <li>Email: <a href="mailto:your.email@example.com">nilotpaldas573@gmail.com</a></li>
+            <li>Phone: 9101371951</li>
+            <li>Location: Assam, India</li>
+        </ul>
+    </div>
+
+    <div class="contact-form">
+        <h2>Send a Message</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
+   <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<script>
+    
+    document.addEventListener("DOMContentLoaded", function() {
+    var icon = document.querySelector(".icon");
+
+    icon.onclick = function () { 
+        document.body.classList.toggle("dark-theme");
+    
+        if (document.body.classList.contains("dark-theme")) { 
+            icon.src = "light.png"; 
+        } else { 
+            icon.src = "dark.png"; 
+        } 
+    };
+});
+
+</script>
+
+</body>
+</html>
